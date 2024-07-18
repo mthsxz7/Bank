@@ -1,5 +1,7 @@
+'''By: mthsxz7 '''
+
 def extrato(saldo):
-    print('Seu saldo atual é R$ {:.2f}'.format(saldo))
+    print(f'Seu saldo atual é R$ {saldo:.2f}')
 
 def deposito(saldo):
     valor_deposito = float(input('Digite o valor do depósito: R$ '))
@@ -7,19 +9,19 @@ def deposito(saldo):
         print('Digite um valor válido')
     else:
         saldo += valor_deposito
-        print('Depósito de R$ {:.2f} efetuado com sucesso'.format(valor_deposito))
-        print('Seu saldo atual é de R$ {:.2f}'.format(saldo))
+        print(f'Depósito de R$ {valor_deposito:.2f} efetuado com sucesso')
+        print(f'Seu saldo atual é de R$ {saldo:.2f}')
     return saldo
 
 def saque(saldo):
-    print('Seu saldo atual é de R$ {:.2f}'.format(saldo))
+    print(f'Seu saldo atual é de R$ {saldo:.2f}')
     valor_saque = float(input('Qual o valor que você deseja sacar? R$ '))
     if valor_saque > saldo:
         print('Não é possível realizar a transação, dinheiro insuficiente')
     else:
         saldo -= valor_saque
         print('Saque efetuado com sucesso.')
-        print('Seu saldo atual é R$ {:.2f}'.format(saldo))
+        print(f'Seu saldo atual é R$ {saldo:.2f}')
     return saldo
 
 # Saldo inicial
@@ -45,4 +47,3 @@ while True:
         break
     else:
         print('Escolha uma opção válida')
-        
