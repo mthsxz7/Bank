@@ -4,9 +4,12 @@ Este é um projeto simples em Python para controle de saldo, onde você pode rea
 
 ## Funcionalidades
 
-- **Extrato**: Mostra o saldo atual da conta.
+- **Extrato**: Mostra o saldo atual da conta e todas as movimentações realizadas.
 - **Depósito**: Permite adicionar fundos à conta.
-- **Saque**: Permite retirar fundos da conta.
+- **Saque**: Permite retirar fundos da conta com controle de limite diário e número máximo de saques.
+- **Criação de Conta**: Permite criar novas contas bancárias.
+- **Listar Contas**: Exibe todas as contas cadastradas.
+- **Criação de Usuário**: Permite cadastrar novos usuários.
 - **Encerramento**: Fecha o programa.
 
 ## Como Usar
@@ -15,7 +18,7 @@ Este é um projeto simples em Python para controle de saldo, onde você pode rea
 
 - Python 3 instalado no seu sistema.
 
-### Execução
+### Instalação
 
 1. **Clone o Repositório**
 
