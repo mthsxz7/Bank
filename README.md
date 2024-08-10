@@ -7,12 +7,12 @@ O Projeto de Controle de Finanças é uma aplicação para gerenciar suas finan�
 
 ## Funcionalidades
 
-* Crie contas para diferentes tipos de finanças (ex: conta corrente, poupança, cartão de crédito)
-* Registre transações de entrada e saída
-* Acompanhe seu saldo em tempo real
-* Faça transferências entre contas
-* Gere relatórios financeiros mensais
-* Visualize gráficos de despesas e receitas
+* **Exibir Extrato**: Mostra o saldo atual da conta e todas as movimentações realizadas.
+* **Realizar Depósito**: Permite adicionar fundos à conta.
+* **Realizar Saque**: Permite retirar fundos da conta com controle de limite diário e número máximo de saques.
+* **Criar Novo Usuário**: Cadastra novos usuários no sistema.
+* **Criar Nova Conta**: Cria novas contas bancárias associadas a usuários existentes.
+* **Listar Contas**: Exibe todas as contas cadastradas no sistema.
 
 ## Instalação
 
