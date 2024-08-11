@@ -55,10 +55,3 @@ A aplicação é executada através da linha de comando. Você pode usar os segu
 * `python bank.py` - Inicia a aplicação.
 * `python bank.py --help` - Exibe a ajuda e os comandos disponíveis.
 
-## Testes
-
-Para garantir que a aplicação funcione corretamente, você pode rodar os testes incluídos. Use o seguinte comando:
-
-```bash
-pytest
-```
